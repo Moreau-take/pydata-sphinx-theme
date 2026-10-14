@@ -1,4 +1,7 @@
-.. _version-dropdowns:
+// If the active version has the name "dev", style it orange
+.version-switcher__button[data-active-version-name*="dev"] {
+   background-color: var(--pst-color-secondary);
+}.. _version-dropdowns:
 
 Version switcher dropdowns
 ==========================
